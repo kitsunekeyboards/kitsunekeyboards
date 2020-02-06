@@ -1,5 +1,9 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
-.image-bg .feature.boxed {
+.image-bg .feature.boxed, .feature.boxed {
     background: rgba(34, 34, 34, 0.6);
+}
+
+#header.parallax > .background-image-holder {
+  height: 50vh;
 }
