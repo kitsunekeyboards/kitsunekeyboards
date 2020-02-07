@@ -1,9 +1,43 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
 .image-bg .feature.boxed, .feature.boxed {
-    background: rgba(34, 34, 34, 0.6);
+  background: rgba(34, 34, 34, 0.6);
 }
 
 #header.parallax > .background-image-holder {
   height: 50vh;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+div#interestForm {
+	z-index: 1000; 
+	position: absolute;
+	overflow: scroll;
+	max-height: 80%;
+}
+
+section#spacerSection.hidden-md.hidden-lg.hidden-sm {
+	overflow: unset;
+	padding: 25vw;
+}
+
+@media (max-width: 768px){
+	div#interestForm {
+		margin-left: 8%;
+	}
+	section#mainSection {
+		overflow: unset;
+	}
+}
+
+@media (max-width: 640px) {
+	div#interestForm {
+		margin-left: 0%;
+	}
+	section#mainSection {
+		overflow: unset;
+	}
 }
